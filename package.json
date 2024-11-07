@@ -1,0 +1,24 @@
+{
+  "name": "jointjs-vue-2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "convert-joint": "tsx tools/convert.ts ../src/joint1.vue && prettier --write tests/joint1_vue.js",
+    "convert-joint+": "tsx tools/convert.ts ../src/joint2.vue && prettier --write tests/joint2_vue.js"
+  },
+  "dependencies": {
+    "@joint/plus": "file:p:/learnings/java/jointplus_v4.0.1/build/package/joint-plus.tgz",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "vue-tsc": "^2.1.8",
+    "prettier": "^3.3.3"
+  }
+}
