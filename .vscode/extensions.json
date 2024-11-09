@@ -4,6 +4,9 @@
     "vitest.explorer",
     "dbaeumer.vscode-eslint",
     "EditorConfig.EditorConfig",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "ecmel.vscode-html-css",
+    "ms-vscode.vscode-typescript-next"
   ]
 }
